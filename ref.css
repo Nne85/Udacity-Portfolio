@@ -1,0 +1,147 @@
+@media screen and (max-width:320px){
+    .logo{
+        width:250px;
+margin-left: 0em;
+        padding-top: 3em;
+        margin-right: 7em;
+    
+    }
+    .header {
+        padding-bottom: 20px;
+    }
+    #udacity{
+        width: 150px;
+    }
+    .name{
+      width:  250px;
+      margin-left: 1em;
+      padding-top: 1em;
+
+    }
+    #nne {
+        font-size: 20px;
+    }
+    p {
+        font-size: 10px;
+    }
+    hr {
+        display: none;
+    }
+
+    .container1 {
+      display: none;
+    
+    }
+    #img {
+      width: 250px;
+      height: 150px;
+    }
+    .works {
+      width: 100%;
+      display: flex;
+      position: relative;
+    
+    }
+    #cal{
+      width: 120px;
+      
+    }
+    #calculator h2 {
+      font-size:15px; 
+    }
+    #pix {
+      width: 100px;
+      height: 120px;
+    
+    }
+    #pixelart{
+      margin-left: 2em;
+    }
+    #pixelart h2{
+    font-size: 15px;
+    }
+    a:link {
+      font-size: 10px;
+      width: 48px;
+    }
+    a:visited {
+      color: #409151;
+    }
+    }
+    @media screen and (min-width:321px) and (max-width:700px)
+    {
+        .logo{
+            width:250px;
+            margin-right: 5em;
+            margin-left: 0em;
+            padding-top: 5em;
+        
+        }
+          #udacity {
+            width:150px;
+          }
+          .name{
+          width:  250px;
+          margin-left: 7em;
+          padding-top: 2em;
+    
+          }
+          hr {
+            align-items: center;
+            margin-left: 50px;
+          }
+          #img {
+            width: 320px;
+            height: 420px;
+          }
+          .works {
+            width: 100%;
+            display: flex;
+            position: relative;
+          
+          }
+          #cal{
+            width: 120px;
+            height: 120px;
+            
+          }
+          #calculator h2 {
+            font-size:15px; 
+          }
+          #pix {
+            width: 120px;
+            height: 120px;
+          
+          }
+          #pixelart{
+            margin-left: 2em;
+          }
+          #pixelart h2{
+          font-size: 15px;
+          }
+          a:link {
+            font-size: 12px;
+            width: 48px;
+          }
+    }
+    @media screen and (min-width:701px) {
+        #udacity {
+            width: 200px;;
+        }
+        .logo {
+            width: 50%;
+            margin-left: 0em;
+            padding-top: 5em;  
+        }
+        .name{
+            padding-top: 5em;
+        margin-left: 12em;
+        }
+        #calculator,#pixelart {
+            width: auto;
+        }
+        hr {
+            align-content: center;
+            margin-left: 11em;
+        }
+    }
